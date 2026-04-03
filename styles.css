@@ -1,0 +1,31 @@
+body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+    
+h1, h2, h3, h4 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 600;
+        letter-spacing: -1px;
+}
+    
+html {
+        scroll-behavior: smooth;
+}
+
+table tr:hover {
+    background-color: #1e2937 !important;
+}
+
+.group:hover {
+    box-shadow: 25px 25px 50px -12px rgb(14 165 233 / 0.15);
+}
+
+@media (max-width: 768px) {
+    nav .flex.items-center.gap-x-9 {
+        display: none;
+    }
+}
+
+.rounded-3xl {
+    border-radius: 1.75rem;
+}
